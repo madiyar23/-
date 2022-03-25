@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+/* HEADER KODLARI */
+
+.header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #EFEFEF solid 1px;
+}
+
+/* LOGO KODLARI */
+
+.logo {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+/* QIDIRISH PANELI KODLARI */
+
+.search {
+    width: 250px;
+    border-radius: 40px;
+    border: none;
+    background-color: #EFEFEF;
+}
+
+.search:focus {
+    outline: none;
+}
+
+input[type="search"] {
+    padding: 10px 20px;
+}
+
+/* ОБРАТНЫЙ ЗВОНОК BTN KODLARI */
+
+.number {
+    width: 200px;
+    border: #333333 solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin-right: 40px;
+    transition: 0.3s linear;
+}
+
+.number a {
+    padding: 8px 1px;
+    transition: 0.3s linear;
+}
+
+.number:hover {
+    background-color: #333333;
+    transition: 0.3s linear;
+}
+
+.number a:hover {
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+/* ПАНЕЛЬ НАВИГАЦИЯ KODLARI */
+
+.nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.157);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    list-style: none;
+}
+
+.nav ul li {
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+/* SAMSUNG GALAXY S20 ULTRA RASMINI KODLARI */
+
+.samsungs20 {
+    width: 100%;
+    height: 497px;
+    background-image: url(../img/Samsung.jpg);
+}
+
+/* ВСЕ ТЕЛЕФОНЫ KODLARI */
+
+.products {
+    margin: 20px 40px;
+}
+
+.headp {
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin: 40px 0;
+
+}
+
+.boldp {
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+margin-left: 150px;
+}
+
+.products .produc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products .produc .product {
+    width: 255px;
+    height: 363px;
+    margin: 50px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.products .produc .product p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.products .produc .product .price {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .produc .product .price a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.products .produc .product:hover {
+    box-shadow: 0 0px 11px rgba(119, 119, 119, 0.301);
+    transition: all 0.3s ease;
+}
+
+.products .produc .product img {
+    width: 125px;
+    height: 166px;
+    margin: 25px 65px 20px 65px ;
+}
+
+
+
